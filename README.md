@@ -30,10 +30,11 @@ $allLocalizedUrls = \Routelocale::getAllLocalizedRoutes(null, false, true);
 ```
 
 will output url used in hreflang:
+```
 <link rel="canonical" href="http://dev.myblogtest.com/packages/breadcrumbs-for-laravel-54" />
 <link rel="alternate" hreflang="en" href="http://dev.myblogtest.com/packages/breadcrumbs-for-laravel-54" />
 <link rel="alternate" hreflang="ru" href="http://dev.myblogtest.com/ru/packages/khlebnyekroshki-dlya-laravel-54" />
-
+```
 
 
 
