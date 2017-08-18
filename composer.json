@@ -14,12 +14,13 @@
     "license": "MIT License",
     "require": {
         "php": ">=5.6.0",
-        "crumby/route-resolver": "*"
+        "crumby/route-resolver": "1.0.*@dev"
     },
     "autoload": {
         "psr-4": {
             "Crumby\\Routelocale\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable" : true
 }
